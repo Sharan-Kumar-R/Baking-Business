@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brownie Tiruchengode - Decadent Cakes & Brownies</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header id="main-header">
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <!-- <img src="https://assets.codepen.io/6060109/bakery-logo-cream.png" alt="Brownie Tiruchengode Logo"> -->
+                Brownie<span>TGode</span>
+            </a>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Cakes</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#about">Story</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="navbar-right-group"> <!-- Wrapper for right-aligned items -->
+                <div class="nav-actions">
+                    <a href="#" class="nav-icon" id="wishlist-icon" aria-label="Wishlist">
+                        <i class="fas fa-heart"></i>
+                        <span class="icon-badge" id="wishlist-count">0</span>
+                    </a>
+                    <a href="#" class="nav-icon" id="cart-icon" aria-label="Cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="icon-badge" id="cart-count">0</span>
+                    </a>
+                    <button class="order-now-btn" id="open-modal-btn">Order Now</button>
+                </div>
+
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-particles" id="hero-particles-container">
+            <!-- Particles will be added via JavaScript -->
+        </div>
+        <!-- floating-cake and floating-brownie divs were here -->
+        <div class="hero-content animate__animated animate__fadeInUp">
+            <h1>Where Every Bite is a Celebration!</h1>
+            <p>Handcrafted with love, our brownies and cakes bring joy to your special moments. Made with the finest ingredients in Tiruchengode.</p>
+            <a href="#products" class="btn">Explore Our Creations</a>
+        </div>
+    </section>
+
+    <!-- Featured Banner -->
+    <div class="featured-banner">
+        <p>
+            <i class="fas fa-gift"></i>
+            <span>FREE DELIVERY</span> on orders over ₹999
+            <i class="fas fa-star"></i>
+            <span>USE CODE:</span> WELCOME20 for 20% OFF your first order
+            <i class="fas fa-birthday-cake"></i>
+            <span>SPECIAL OFFER:</span> Custom Birthday Cakes starting at ₹499
+            <i class="fas fa-gift"></i>
+            <span>FREE DELIVERY</span> on orders over ₹999
+        </p>
+    </div>
+
+    <!-- Signature Creations -->
+    <section id="products">
+        <h2 class="section-title">Our Signature Creations</h2>
+        <p class="section-subtitle">Indulge in our handcrafted delights made with premium ingredients and lots of love.</p>
+        <div class="products">
+            <div class="product-card" data-id="classic-fudge-brownie" data-name="Classic Fudge Brownie" data-price="199" data-image-src="https://images.unsplash.com/photo-1564355808539-22fda35bed7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80">
+                <div class="product-tag">BEST SELLER</div>
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1564355808539-22fda35bed7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80" alt="Classic Fudge Brownie">
+                </div>
+                <div class="product-info">
+                    <h3>Classic Fudge Brownie</h3>
+                    <p>Rich, gooey, and loaded with dark chocolate – a timeless favorite that melts in your mouth!</p>
+                    <div class="price-rating">
+                        <div class="price">₹199 <small>₹249</small></div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-id="nutty-caramel-crunch" data-name="Nutty Caramel Crunch" data-price="249" data-image-src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80" alt="Nutty Caramel Crunch">
+                </div>
+                <div class="product-info">
+                    <h3>Nutty Caramel Crunch</h3>
+                    <p>Crunchy walnuts, buttery caramel, and a fudgy base – pure bliss in every bite!</p>
+                    <div class="price-rating">
+                        <div class="price">₹249</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-id="red-velvet-dream-cake" data-name="Red Velvet Dream Cake" data-price="599" data-image-src="https://images.unsplash.com/photo-1586788680434-30d324b2d46f?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80">
+                <div class="product-tag">NEW</div>
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1586788680434-30d324b2d46f?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80" alt="Red Velvet Dream Cake">
+                </div>
+                <div class="product-info">
+                    <h3>Red Velvet Dream Cake</h3>
+                    <p>Luxurious layers of velvety cocoa, cream cheese frosting, and a hint of magic.</p>
+                    <div class="price-rating">
+                        <div class="price">₹599</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+                        <div class="product-card" data-id="chocolate-truffle-cake" data-name="Chocolate Truffle Cake" data-price="649" data-image-src="https://images.unsplash.com/photo-1559620192-032c4bc4674e?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1559620192-032c4bc4674e?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80" alt="Chocolate Truffle Cake">
+                </div>
+                <div class="product-info">
+                    <h3>Chocolate Truffle Cake</h3>
+                    <p>Decadent dark chocolate truffle with a silky smooth texture that will transport you to heaven.</p>
+                    <div class="price-rating">
+                        <div class="price">₹649</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-id="tiruchengode-special" data-name="Tiruchengode Special" data-price="299" data-image-src="https://images.unsplash.com/photo-1607478900771-4f51c60b57d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80">
+                <div class="product-tag">LOCAL FAVORITE</div>
+                <div class="product-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFQyH5VI3QeKmBFutEom82l1UqxlfSt6FiAg&s" alt="Tiruchengode Special">
+                </div>
+                <div class="product-info">
+                    <h3>Tiruchengode Special</h3>
+                    <p>A traditional twist! Sweet jaggery, aromatic ghee, and a nutty finish that locals love.</p>
+                    <div class="price-rating">
+                        <div class="price">₹299 <small>₹349</small></div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-id="oreo-overload-cake" data-name="Oreo Overload Cake" data-price="699" data-image-src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80" alt="Oreo Overload Cake">
+                </div>
+                <div class="product-info">
+                    <h3>Oreo Overload Cake</h3>
+                    <p>Crushed Oreos, chocolate ganache, and layers of creamy goodness. A kid's favorite!</p>
+                    <div class="price-rating">
+                        <div class="price">₹699</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+                        <div class="product-card" data-id="velvet-berry-swirl" data-name="Velvet Berry Swirl Cake" data-price="749" data-image-src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80">
+                <div class="product-tag">NEW ARRIVAL</div>
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80" alt="Velvet Berry Swirl Cake">
+                </div>
+                <div class="product-info">
+                    <h3>Velvet Berry Swirl Cake</h3>
+                    <p>A luscious cream cheese frosting swirled with a vibrant mixed berry compote on a rich, velvety base. A truly elegant treat!</p>
+                    <div class="price-rating">
+                        <div class="price">₹749</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card" data-id="chocolate-truffle-cake" data-name="Chocolate Truffle Cake" data-price="649" data-image-src="https://images.unsplash.com/photo-1559620192-032c4bc4674e?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80">
+                <div class="product-img">
+                    <img src="https://www.billyparisi.com/wp-content/uploads/2023/02/chocolate-cheesecake-1.jpg" alt="Chocolate Truffle Cake">
+                </div>
+                <div class="product-info">
+                    <h3>Chocolate Truffle Cake</h3>
+                    <p>Decadent dark chocolate truffle with a silky smooth texture that will transport you to heaven.</p>
+                    <div class="price-rating">
+                        <div class="price">₹649</div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                        <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products" id="featured">
+        <h2 class="section-title">Featured This Week</h2>
+        <p class="section-subtitle">Discover our handpicked selection of cakes, perfect for any occasion.</p>
+        <div class="featured-grid">
+            <div class="featured-item">
+                <img src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1050&q=80" alt="Grand Celebration Cake" class="featured-img">
+                <div class="featured-content">
+                    <h3 class="featured-title">Grand Celebration Cake</h3>
+                    <p class="featured-price">Starting at ₹1499</p>
+                </div>
+            </div>
+            <div class="featured-item">
+                <img src="https://www.onceuponachef.com/images/2017/12/cheesecake-1200x1393.jpg" alt="Berry Bliss Cheesecake" class="featured-img">
+                <div class="featured-content">
+                    <h3 class="featured-title">Berry Bliss Cheesecake</h3>
+                    <p class="featured-price">₹799</p>
+                </div>
+            </div>
+            <div class="featured-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrFTzJ--yELvljrwQKEe5tZaK3a9R1tvq6lwkhOibDo8Pyf-UcsDh2W3eRa9n1lTphmNPsNuqActTuDq6WXFB-vfKjJPYWUxEb-HAh3A" alt="Kids Themed Cupcakes" class="featured-img">
+                <div class="featured-content">
+                    <h3 class="featured-title">Kids Themed Cupcakes</h3>
+                    <p class="featured-price">₹499 / dozen</p>
+                </div>
+            </div>
+            <div class="featured-item">
+                 <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?ixlib=rb-4.0.3&auto=format&fit=crop&w=634&q=80" alt="Artisanal Brownie Box" class="featured-img">
+                <div class="featured-content">
+                    <h3 class="featured-title">Artisanal Brownie Box</h3>
+                    <p class="featured-price">₹399</p>
+                </div>
+            </div>
+            <div class="featured-item">
+                <img src="https://i.ytimg.com/vi/vetFXMrSvvQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBJG6qZVzdIGT8XYC1O1szK_oXDKw" alt="Mango Mousse Delight" class="featured-img">
+                <div class="featured-content">
+                    <h3 class="featured-title">Mango Mousse Delight</h3>
+                    <p class="featured-price">₹699 (Seasonal)</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-pattern"></div>
+        <div class="about-container">
+            <div class="about-text">
+                <h2 class="about-title">Our Sweet Story</h2>
+                <p>Brownie Tiruchengode was born out of a passion for creating unforgettable dessert experiences. Founded in 2020 by a team of dedicated bakers, we combine traditional baking techniques with innovative flavors to bring you the best cakes and brownies in town.</p>
+                <p>Every product is made fresh daily using premium, locally-sourced ingredients where possible, ensuring quality and taste in every bite. We believe that a cake is more than just a dessert; it's a centerpiece of joy, a token of love, and a moment of pure indulgence.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number" data-target="5000">0</div>
+                        <div class="stat-label">Happy Customers</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number" data-target="200">0</div>
+                        <div class="stat-label">Cake Varieties</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="https://i.pinimg.com/736x/2c/0a/52/2c0a52e5c07844ed216f21c374b7d5d9.jpg" alt="Baker with Cake" class="about-img">
+                <div class="about-badge">
+                    <span>4+</span> Years Baking
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers -->
+    <section class="special-offers" id="offers">
+        <h2 class="section-title">Special Offers Just For You</h2>
+        <p class="section-subtitle">Don't miss out on these sweet deals to make your celebrations even more special!</p>
+        <div class="offer-container">
+            <div class="offer-card">
+                <div class="offer-icon"><i class="fas fa-birthday-cake"></i></div>
+                <h3 class="offer-title">Birthday Bonanza</h3>
+                <p class="offer-text">Get 15% OFF on all birthday cakes over ₹1000. Make their day extra special!</p>
+                <div class="offer-code">Use Code: BDAY15</div>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+            <div class="offer-card">
+                <div class="offer-icon"><i class="fas fa-users"></i></div>
+                <h3 class="offer-title">Bulk Order Delight</h3>
+                <p class="offer-text">Planning a party? Get 20% OFF on orders of 5 cakes or more. Perfect for events!</p>
+                <div class="offer-code">Call for Details</div>
+                <a href="#contact" class="btn">Inquire Now</a>
+            </div>
+            <div class="offer-card">
+                <div class="offer-icon"><i class="fas fa-calendar-alt"></i></div>
+                <h3 class="offer-title">Weekend Treat</h3>
+                <p class="offer-text">Enjoy a FREE Brownie Box with any cake purchase over ₹799 on weekends!</p>
+                <div class="offer-code">Auto-Applied</div>
+                <a href="#products" class="btn">Explore Cakes</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <h2 class="section-title">What Our Customers Say</h2>
+        <div class="testimonial-container">
+            <div class="testimonial-slider" id="testimonial-slider">
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The best brownies I've ever had! The Tiruchengode Special is my absolute favorite. So fresh and delicious!"</p>
+                    <div class="customer">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Customer Priya K." class="customer-img">
+                        <div class="customer-info">
+                            <h4>Priya K.</h4>
+                            <span>Regular Customer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">"Ordered a cake for my daughter's birthday, and it was a huge hit! Beautifully decorated and tasted amazing. Will definitely order again."</p>
+                    <div class="customer">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Customer Rajesh M." class="customer-img">
+                        <div class="customer-info">
+                            <h4>Rajesh M.</h4>
+                            <span>First-time Buyer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                     <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The Red Velvet Cake is to die for! Perfect balance of sweetness and texture. Customer service was excellent too."</p>
+                    <div class="customer">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Customer Ananya S." class="customer-img">
+                        <div class="customer-info">
+                            <h4>Ananya S.</h4>
+                            <span>Food Blogger</span>
+                        </div>
+                    </div>
+                </div>
+                 <div class="testimonial-card">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Excellent quality and presentation. The Nutty Caramel Crunch brownie was heavenly. Highly recommended for all cake lovers!"</p>
+                    <div class="customer">
+                        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Customer Suresh G." class="customer-img">
+                        <div class="customer-info">
+                            <h4>Suresh G.</h4>
+                            <span>Local Resident</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <button class="slider-btn" id="prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn" id="next-testimonial"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+<!-- Gallery Section -->
+<section class="gallery" id="gallery">
+    <h2 class="section-title">Our Sweet Creations</h2>
+    <p class="section-subtitle">A glimpse into the artistry and passion baked into every cake and brownie.</p>
+    <div class="gallery-container">
+        <!-- Row 1 -->
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1564355808539-22fda35bed7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" alt="Fudge Brownies" class="gallery-img">
+            <div class="gallery-overlay">
+                <h3 class="gallery-title">Fudge Brownies</h3>
+                <i class="fas fa-search-plus gallery-icon"></i>
+            </div>
+        </div>
+        
+        <!-- Row 2 -->
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" alt="Wedding Cake" class="gallery-img">
+            <div class="gallery-overlay">
+                <h3 class="gallery-title">Elegant Wedding</h3>
+                <i class="fas fa-search-plus gallery-icon"></i>
+            </div>
+        </div>        
+        <!-- Row 3 -->
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1586788680434-30d324b2d46f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" alt="Red Velvet Cake" class="gallery-img">
+            <div class="gallery-overlay">
+                <h3 class="gallery-title">Red Velvet</h3>
+                <i class="fas fa-search-plus gallery-icon"></i>
+            </div>
+        </div>        
+        <!-- Row 4 -->
+        <div class="gallery-item">
+            <img src="data:image/jpeg;base64,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" alt="Special Brownies" class="gallery-img">
+            <div class="gallery-overlay">
+                <h3 class="gallery-title">Special Brownies</h3>
+                <i class="fas fa-search-plus gallery-icon"></i>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1559620192-032c4bc4674e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" alt="Chocolate Truffle" class="gallery-img">
+            <div class="gallery-overlay">
+                <h3 class="gallery-title">Chocolate Truffle</h3>
+                <i class="fas fa-search-plus gallery-icon"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2 class="contact-title">Get In Touch</h2>
+                <p class="contact-text">Have a question, a special request, or just want to say hello? We'd love to hear from you! Reach out to us, and let's make your sweet dreams come true.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+                        <span>123 Sweet Street, Near Temple Arch, Tiruchengode, TN 637211</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon"><i class="fas fa-phone"></i></span>
+                        <a href="tel:+919876543210">+91 98765 43210</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                        <a href="mailto:orders@brownietiruchengode.com">orders@brownietiruchengode.com</a>
+                    </div>
+                </div>
+                <div class="contact-hours">
+                    <h3 class="hours-title">Opening Hours:</h3>
+                    <div class="hours-row"><span>Monday - Saturday:</span> <span>9:00 AM - 7:00 PM</span></div>
+                    <div class="hours-row"><span>Sunday:</span> <span>10:00 AM - 4:00 PM (Pre-orders only)</span></div>
+                </div>
+            </div>
+            <div class="form-container">
+                <h3 class="form-title">Send Us a Message</h3>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" class="form-label">Phone Number (Optional)</label>
+                        <input type="tel" id="phone" name="phone" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea id="message" name="message" class="form-input form-textarea" required></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-col">
+                    <a href="#" class="footer-logo">Brownie<span>TGode</span></a>
+                    <p class="footer-desc">Crafting Tiruchengode's most imaginative cakes, infused with the soul of a perfect brownie. Let us bake happiness for your next occasion!</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-list">
+                        <li><a href="#home"><i class="fas fa-angle-right"></i> Home</a></li>
+                        <li><a href="#products"><i class="fas fa-angle-right"></i> Our Cakes</a></li>
+                        <li><a href="#about"><i class="fas fa-angle-right"></i> About Us</a></li>
+                        <li><a href="#testimonials"><i class="fas fa-angle-right"></i> Testimonials</a></li>
+                        <li><a href="#contact"><i class="fas fa-angle-right"></i> Contact Us</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Our Delicacies</h3>
+                    <ul class="footer-list">
+                        <li><a href="#"><i class="fas fa-birthday-cake"></i> Birthday Cakes</a></li>
+                        <li><a href="#"><i class="fas fa-cookie-bite"></i> Signature Brownies</a></li>
+                        <li><a href="#"><i class="fas fa-cheese"></i> Cheesecakes</a></li>
+                        <li><a href="#"><i class="fas fa-ice-cream"></i> Cupcakes</a></li>
+                        <li><a href="#"><i class="fas fa-gift"></i> Custom Orders</a></li>
+                        <li><a href="#"><i class="fas fa-seedling"></i> Vegan Options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Subscribe for Offers</h3>
+                    <p class="footer-desc">Get the latest updates on new products and special offers.</p>
+                    <form class="footer-subscribe">
+                        <input type="email" class="footer-input" placeholder="Your Email Address" required>
+                        <button type="submit" class="footer-btn">Subscribe</button>
+                    </form>
+                    <div class="payments">
+                        <span class="payment-icon"><i class="fab fa-cc-visa"></i></span>
+                        <span class="payment-icon"><i class="fab fa-cc-mastercard"></i></span>
+                        <span class="payment-icon"><i class="fab fa-google-pay"></i></span>
+                        <span class="payment-icon"><i class="fab fa-paypal"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright-text">© <span id="currentYear"></span> Brownie Tiruchengode. All Rights Reserved. Crafted with <i class="fas fa-heart" style="color: var(--accent-gold);"></i> in Tiruchengode.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Order Now Modal (Checkout Modal) -->
+    <div class="modal" id="order-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Place Your Order / Checkout</h3>
+                <button class="close-modal" id="close-modal-btn" aria-label="Close modal"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <form id="modal-order-form">
+                    <div class="form-group">
+                        <label for="modal-name" class="form-label">Full Name</label>
+                        <input type="text" id="modal-name" name="modal-name" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="modal-phone" class="form-label">Phone Number</label>
+                        <input type="tel" id="modal-phone" name="modal-phone" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="modal-address" class="form-label">Delivery Address</label>
+                        <textarea id="modal-address" name="modal-address" class="form-input form-textarea" rows="3" required></textarea>
+                    </div>
+                    <div class="form-group" id="modal-order-summary-group" style="display:none;">
+                        <label class="form-label">Order Summary:</label>
+                        <div id="modal-order-summary-items"></div>
+                        <p><strong>Total: <span id="modal-order-total"></span></strong></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="modal-cake" class="form-label">Select Cake/Brownie (if not ordering from cart)</label>
+                        <select id="modal-cake" name="modal-cake" class="form-input">
+                            <option value="" disabled selected>-- Choose an item --</option>
+                            <option value="fudge-brownie">Classic Fudge Brownie</option>
+                            <option value="caramel-crunch">Nutty Caramel Crunch</option>
+                            <option value="red-velvet">Red Velvet Dream Cake</option>
+                            <option value="tiru-special">Tiruchengode Special</option>
+                            <option value="oreo-cake">Oreo Overload Cake</option>
+                            <option value="truffle-cake">Chocolate Truffle Cake</option>
+                            <option value="custom">Custom Order (Describe below)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="modal-quantity" class="form-label">Quantity (if not ordering from cart)</label>
+                        <input type="number" id="modal-quantity" name="modal-quantity" class="form-input" min="1" value="1">
+                    </div>
+                    <div class="form-group">
+                        <label for="modal-message" class="form-label">Special Instructions / Custom Order Details</label>
+                        <textarea id="modal-message" name="modal-message" class="form-input form-textarea" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">Confirm Order</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Wishlist Modal -->
+    <div class="modal" id="wishlist-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">My Wishlist</h3>
+                <button class="close-modal" id="close-wishlist-modal" aria-label="Close modal"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body" id="wishlist-items-container">
+                <p class="empty-message">Your wishlist is empty. Start adding your favourite treats!</p>
+                <!-- Wishlist items will be populated here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div class="modal" id="cart-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">My Shopping Cart</h3>
+                <button class="close-modal" id="close-cart-modal" aria-label="Close modal"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body" id="cart-items-container">
+                 <p class="empty-message">Your cart is empty. Add some delicious items!</p>
+                <!-- Cart items will be populated here by JavaScript -->
+            </div>
+            <div class="modal-footer" id="cart-footer">
+                <h4>Total: <span id="cart-total-price">₹0.00</span></h4>
+                <button class="btn" id="checkout-btn" disabled>Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification Placeholder -->
+    <div id="toast-notification" class="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
