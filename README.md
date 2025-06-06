@@ -16,7 +16,7 @@ Here's a glimpse of the project on different devices.
 
 | Desktop View | Mobile View |
 | :---: | :---: |
-| ![Desktop Screenshot](https://github.com/Sharan-Kumar-R/Baking-Business/blob/main/Desktop.png) | ![Mobile Screenshot](<URL_TO_YOUR_MOBILE_SCREENSHOT.png>) |
+| ![Desktop Screenshot](https://github.com/Sharan-Kumar-R/Baking-Business/blob/main/Desktop.png) |
 
 
 ## ✨ Key Features
