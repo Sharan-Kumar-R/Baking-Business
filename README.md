@@ -8,9 +8,7 @@ This is a fully responsive, single-page landing page for a fictional bakery, "Br
 
 **You can view the live version of the site here:**
 
-[**https://[YOUR GITHUB USERNAME].github.io/bakery-website/**](https://[YOUR GITHUB USERNAME].github.io/bakery-website/)
-
-_(Replace the link above with your actual GitHub Pages URL once it's deployed!)_
+[**https://sharan-kumar-r.github.io/Baking-Business/**](https://sharan-kumar-r.github.io/Baking-Business/)
 
 ## 📸 Screenshots
 
