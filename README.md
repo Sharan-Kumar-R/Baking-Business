@@ -18,7 +18,6 @@ Here's a glimpse of the project on different devices.
 | :---: | :---: |
 | ![Desktop Screenshot](https://github.com/Sharan-Kumar-R/Baking-Business/blob/main/Desktop.png) | ![Mobile Screenshot](<URL_TO_YOUR_MOBILE_SCREENSHOT.png>) |
 
-*(**Pro Tip:** To get these screenshots, open your live site, take a screenshot, and upload the images to your GitHub repository. Then, replace the `URL_TO_...` placeholders with the direct links to those images.)*
 
 ## ✨ Key Features
 
