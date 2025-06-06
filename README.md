@@ -14,8 +14,8 @@ This is a fully responsive, single-page landing page for a non-fictional bakery,
 
 Here's a glimpse of the project on different devices.
 
-| Desktop View | Mobile View |
-| :---: | :---: |
+| Desktop View |
+| :---: | 
 | ![Desktop Screenshot](https://github.com/Sharan-Kumar-R/Baking-Business/blob/main/Desktop.png) |
 
 
