@@ -21,7 +21,7 @@ It showcases products like brownies and cakes, offers an e-commerce-like experie
 
 | Desktop View |
 | :---: | 
-| ![Desktop Screenshot](#add) |
+| ![Desktop Screenshot](https://github.com/Sharan-Kumar-R/Baking-Business/blob/main/Desktop_View.png) |
 
 
 ## ✨ Key Features
