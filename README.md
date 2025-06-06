@@ -57,11 +57,11 @@ To run this project locally, follow these simple steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/[YOUR GITHUB USERNAME]/bakery-website.git
+    git clone https://github.com/Sharan-Kumar-R/Baking-Business.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
-    cd bakery-website
+    cd Baking-Business
     ```
 3.  **Open `index.html` in your web browser.**
     *   For the best experience (and to avoid any potential CORS issues with local files), it's recommended to use a live server. If you are using VS Code, you can use the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
