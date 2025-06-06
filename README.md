@@ -1,4 +1,4 @@
-<h1 align="center">Real-time voice-enabled AI ChatBot and VoiceBot</h1>
+<h1 align="center">Bakehouse Web Application</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
