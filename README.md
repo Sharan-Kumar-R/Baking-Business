@@ -2,7 +2,7 @@
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-This is a fully responsive, single-page landing page for a fictional bakery, "Brownie Tiruchengode". The project is built with vanilla HTML, CSS, and JavaScript, focusing on a modern user interface, dynamic interactivity, and a great user experience. It's designed to showcase products, engage customers, and provide an intuitive e-commerce-like experience without a backend.
+This is a fully responsive, single-page landing page for a non-fictional bakery, "Brownie Tiruchengode". The project is built with vanilla HTML, CSS, and JavaScript, focusing on a modern user interface, dynamic interactivity, and a great user experience. It's designed to showcase products, engage customers, and provide an intuitive e-commerce-like experience without a backend.
 
 ## 🚀 Live Demo
 
