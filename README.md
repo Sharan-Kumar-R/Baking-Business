@@ -83,8 +83,3 @@ While this is a complete front-end project, here are some features that could be
 *   **User Authentication:** Allow users to sign up, log in, and have their own persistent cart across devices.
 *   **Payment Gateway:** Integrate a payment system like Stripe or PayPal.
 
-## 🙏 Acknowledgments
-
-*   All product and gallery images are from [Unsplash](https://unsplash.com/).
-*   Icons are provided by [Font Awesome](https://fontawesome.com/).
-*   Inspiration from various modern e-commerce and portfolio websites.
