@@ -1,5 +1,3 @@
-<h2 align="center">Bakery Web Application.</h2>
-
 # Bakery Web Application
 
 <p align="center">
