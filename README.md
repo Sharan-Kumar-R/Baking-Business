@@ -12,7 +12,6 @@ This is a fully responsive, single-page landing page for a non-fictional bakery,
 
 ## 📸 Screenshots
 
-Here's a glimpse of the project on different devices.
 
 | Desktop View |
 | :---: | 
