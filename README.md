@@ -85,6 +85,8 @@ While this is a complete front-end project, here are some features that could be
 *   **User Authentication:** Allow users to sign up, log in, and have their own persistent cart across devices.
 *   **Payment Gateway:** Integrate a payment system like Stripe or PayPal.
 
+In case of any queries, please leave a message or contact me via the email provided in my profile.
+
 <p align="center">
 ⭐ <strong>Star this repository if you found it helpful!</strong>
 </p>
