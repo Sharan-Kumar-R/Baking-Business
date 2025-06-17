@@ -69,7 +69,7 @@ To run this project locally, follow these simple steps:
 ## 📁 Project Structure
 
 ```
-/
+Baking-Business/
 ├── index.html      # The main HTML file
 ├── style.css       # All custom CSS styles
 ├── script.js       # All JavaScript logic
